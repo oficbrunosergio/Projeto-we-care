@@ -37,8 +37,8 @@
     
 
     .logo-image {
-        width: 568px;
-        height: 500px;
+        width: 368px;
+        height: 380px;
         margin-left: 125px;
         display: inline-block;
         
@@ -68,16 +68,16 @@
 
     p {
         font-weight: 400;
-        font-size: 24px;
-        line-height: 29px;
+        font-size: 74px;
+        line-height: 69px;
         color: #848484;
-        width: 515px;
+        width: 1115px;
         margin-top: 32px;
         margin-bottom: 65px;
     }
 
     .button-main {
-        background: #adff00;
+        background: #c9599a;
         border-radius: 30px;
         width: 239px;
         height: 64px;
@@ -90,7 +90,7 @@
         color: #000000;
     }
     
-    @media screen and (max-width 800px){
+    @media screen and (max-width: 800px) {
         .div {
             width: 390PX;
             height: 342PX;
