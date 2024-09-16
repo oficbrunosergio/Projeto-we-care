@@ -32,7 +32,7 @@
   background: #665ae1;
   border-radius: 20.5px;
   width: 430px;
-  height: 51px;
+  height: 111px;
   border: none;
   font-weight: 600;
   font-size: 24px;
@@ -130,6 +130,52 @@ main {
   border-radius: 35px;
 }
 
+.btn-whatsapp {
+  position:absolute;
+  outline: none;
+  bottom: 250px;
+  right: 350px;
+  border-radius: 50%;
+  height: 105px;
+  width: 105px;
+  cursor: pointer;
+  background: #34af23;
+  color: #fff;
+  font-size: 2.3rem;
+  border: 1px solid #f1f1f1;
+
+  /*animation-name: pulsar;*/                 /*SEQUENCIAS DE PASSOS DA ANIMAÇÃO*/
+  /*animation-duration: 0.8s;*/               /*DURAÇÃO DA ANIMAÇÃO*/
+  /*animation-timing-function: ease-out;*/    /*VELOCIDADE DA ANIMAÇÃO*/
+  /*animation-delay: 1s;*/                    /*DEMORA PARA INICIAR*/
+  /*animation-iteration-count: infinite;*/    /*NUMERO DE VEZES QUE VAI ACONTECER*/
+  /*animation-direction: alternate;*/         /*VAI COMEÇA PRIMEIRO PARA FRENTE*/
+  /*animation-fill-mode: none;*/
+  /*animation-play-state: running;*/          /*ASSIM QUE INICIAR O HTML A ANIMAÇÃO VAI INICIAR*/
+
+  /*CODIGO DE ANIMAÇÃO RESUMIDA - AVALIAR O FUNCIONAMENTO*/
+animation: pulsar 0.8s ease-out 1s infinite alternate none running;
+}
+
+
+
+
+
+
+@keyframes pulsar {
+  0% {
+    height: 45px;
+    width: 45px;
+  }
+  100% {
+    width: 85px;
+    height: 85px;
+  }
+}
+
+search-box-input {
+
+}
 /*Input cadastro*/
 
 /*------------------------------------------------------------*/
@@ -146,7 +192,6 @@ header {
   padding: 50px;
   margin-bottom: 15px;
   display: inline-flex;
-  
   background: #FFB6C1;
   color: #e4b9c0; text-shadow: 1px 1px 0 #ffffff;
   border-radius: 35px;
